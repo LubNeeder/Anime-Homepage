@@ -32,7 +32,7 @@ A responsive and visually appealing anime-themed web UI designed using HTML, CSS
 
 1. Clone this repository:
    bash
-   git clone https://github.com/your-username/anime-ui-design.git
+   git clone (https://github.com/LubNeeder/Anime-Homepage.git)
 
 2. Navigate into the project folder:
    bash
