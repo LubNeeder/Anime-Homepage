@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.const{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    position: fixed;
+}
+
+.logo{
+    font-size: 30px;
+    padding-left: 30%;
+}
+
+.const nav a{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.const nav a:hover{
+    color: rgb(255, 63, 63);
+    font-size: 20px;
+    transition-duration: 0.3s;
+    font-weight: 500;
+    padding: -2px 15px;
+}
+
+.const nav{
+    padding: 10px 20px;
+    padding-left: 20%;
+    display: flex;
+}
+
+.bg{
+    background-image: url(/img/MainWallpaper.png);
+    height: 680px;
+    width: 100%;
+    position: static;
+}
+
+.bg .topic{
+    text-align: center;
+    padding-top: 20%;
+}
+
+.bg .topic h1{
+    font-size: 50px;
+    color: white;
+}
+
+.bg .sub{
+    text-align: center;
+    padding-bottom: 21%;
+    color: whitesmoke;
+}
+
+.floor1{
+    display: flex;
+    background-color: rgb(68, 66, 66);
+    justify-content: space-evenly;
+}
+
+.naruto{
+    height: 270px;
+    width: 20%;
+    margin: 30px;
+    background-color: rgb(161, 160, 160);
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+}
+
+.naruto .im{
+    margin-top: 10px;
+}
+
+.naruto h4{
+    margin: 0px 35px;
+    
+}
+
+.naruto button{
+    border-radius: 30px;
+    background-color: rgb(231, 80, 80);
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.floor2{
+    display: flex;
+    background-color: rgb(100, 100, 100);
+    justify-content: space-evenly;
+    
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer div{
+    margin-left: 80px;
+
+}
+
+.sub h3{
+    margin-left:  53px;
+}
+
+.naruto button:hover{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+.naruto:hover{
+    background-color: rgb(169, 169, 169);
+}
